@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -q normal
+#PBS -N infer_dh_job2
+#PBS -l ngpus=1
+#PBS -l walltime=01:00:00
+#PBS -j oe
+#PBS -l mem=100gb
+cd /home/users/ntu/kshitij0/FYP/vad/code_and_model/egs/far_field_vad
+
+source /home/users/ntu/kshitij0/FYP/vad/code_and_model/myenv/bin/activate
+
+source=/home/users/ntu/kshitij0/FYP/datasets/third_dihard_challenge_eval/data/flac
+rttm_dir=/home/users/ntu/kshitij0/FYP/datasets/third_dihard_challenge_eval/data/rttm
+pretrained=/home/users/ntu/kshitij0/FYP/vad/code_and_model/egs/far_field_vad/trained_models/best_ckpt_dh
+device='cpu'
+
+#$cmd ./log/run_infer_dh.log \
+python inference_dh.py ${source} ${pretrained} --device ${device} --rttm_dir ${rttm_dir}
