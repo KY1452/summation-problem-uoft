@@ -8,7 +8,5 @@ This repository presents "Pattern Is All You Need," a thesis project focused on 
 1.  Clone this repository.
 2.  Explore the model implementations in the `main/models` directory.
 
-**License:** MIT License.
-
 ---
 *Kanishk Yadav, University of Toronto & BITS Pilani (Dec 2023)*
