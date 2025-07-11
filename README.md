@@ -1,4 +1,4 @@
-# Project README: Pattern Is All You Need
+# Pattern Is All You Need
 
 This repository presents "Pattern Is All You Need," a thesis project focused on predicting individual atomic properties from aggregate molecular data using neural networks, addressing a weak supervision problem.
 
