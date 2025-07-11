@@ -6,8 +6,7 @@ This repository presents "Pattern Is All You Need," a thesis project focused on 
 
 **Getting Started:**
 1.  Clone this repository.
-2.  Install dependencies (`pip install -r requirements.txt`).
-3.  Explore the model implementations in the `src/` directory.
+2.  Explore the model implementations in the `main/models` directory.
 
 **License:** MIT License.
 
